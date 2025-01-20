@@ -22,7 +22,6 @@ public class WeatherStation implements Subject {
         }
     }
 
-    // Additional method to update temperature
     public void setTemperature(int temperature) {
         this.temperature = temperature;
         notifyObservers();
